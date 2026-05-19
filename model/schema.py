@@ -12,7 +12,6 @@ class PersonSchema(BaseModel):
     id: int
     name: str
     birth_date: date
-    age: int
     category: CategorySchema
     
 class PersonCreate(BaseModel):
