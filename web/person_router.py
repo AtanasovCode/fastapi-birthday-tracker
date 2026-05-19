@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from fastapi.params import Depends
+from fastapi import Depends
 from sqlalchemy.orm import Session
 from database.database import get_db
 from model.schema import PersonSchema
